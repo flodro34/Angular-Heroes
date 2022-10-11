@@ -1,0 +1,29 @@
+.heroes button.selected {
+    background-color: black;
+    color: white;
+}
+
+.heroes button.selected:hover {
+background-color: #505050;
+color: white;
+}
+
+.heroes button.selected:active {
+background-color: black;
+color: white;
+}
+
+.heroes .badge {
+    display: inline-block;
+    font-size:medium;
+    color: white;
+    padding: 0.5em ;
+    background-color: #405061;
+    line-height: 1em;
+    margin-right: .8em;
+    border-radius: 4px ;
+  }
+  
+  .heroes .name {
+    align-self: center;
+  }
